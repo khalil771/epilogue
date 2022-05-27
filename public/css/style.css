@@ -1,0 +1,70 @@
+:root .cont1  {
+    background-image: url(/public/images/banner.jpg) ;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+:root .cont1 h1{
+    font-family: 'Pacifico', cursive;
+}
+:root .blanc{
+    color: white;
+}
+:root body {
+    background-color: rgba(244,244,244,255);
+    font-family: 'Itim', cursive
+    
+}
+:root .white{
+    background-color: rgba(255,255,255,255);
+}
+.white p{
+    color: rgba(149,158,169,255);
+}
+.white button{
+    color: rgba(149,158,169,255);
+}
+:root .fond1{
+    background-image: url(/public/images/pic01.jpg);
+    height: 30vh;
+    width: 100%;
+    color: white;
+}
+:root .fond2{
+    background-image: url(/public/images/pic02.jpg);
+    height: 30vh;
+    width: 100%;
+    color: white;
+}
+:root .fond3{
+    background-image: url(/public/images/pic03.jpg);
+    height: 30vh;
+    width: 100%;
+    color: white;
+}
+:root .fond4{
+    background-image: url(/public/images/pic04.jpg);
+    height: 30vh;
+    width: 100%;
+    color: white;
+}
+:root .fin p, button{
+    color: rgba(149,158,169,255);
+}
+:root .logo{
+    font-size: 35px;
+    color: gray;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .container1{
+        flex-wrap: wrap;
+    }
+    .flexnav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .flextrois{
+        justify-content: center;
+        width: 600px;
+    }
